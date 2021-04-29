@@ -1,0 +1,58 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Successful login with valid credentials",
+        "description": "",
+        "id": "login-test;successful-login-with-valid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5233202700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on the login page",
+            "match": {
+              "location": "loginTest.user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3678576200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enters username and password",
+            "match": {
+              "location": "loginTest.user_enters_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1378170600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User should view Logout button",
+            "match": {
+              "location": "loginTest.user_should_view_Logout_button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login Test",
+    "description": "",
+    "id": "login-test",
+    "keyword": "Feature",
+    "uri": "Feature/login.feature"
+  }
+]
